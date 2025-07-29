@@ -1,20 +1,14 @@
-// console.log("hello");
-// alert("apan collage ");
-// window.console.log("hello2");
-//  console.dir(document.body);
-//  console.log(document.body);
-// console.dir(document.body.childNodes[1]);
-// let heading =document.getElementById("heading");
-// console.log(heading);
-// let headings=document.getElementsByClassName("heading");
-// console.dir(headings);
-// console.log(headings);
-// let parahs = document.getElementsBytagName("p");
-// console.dir(parahs);
-// let firstEL= document.querySelector("#myId");
-// console.dir(firstEL);
-// let allel=document.querySelectorAll(".myclass");
-// console.dir(allel);
-let div =document.querySelector("div");
-console.dir(div);
-let heading=document.querySelector("h1");
+// let h2=document.querySelector("h2");
+// console.dir(h2.innerText);
+// h2.innerText =h2.innerText=h2.innertext+"from apna collage students ";
+
+let divs=document.querySelectorAll(".box");
+// console.leog(divs[0]);
+let idx=1;
+for(div of divs){
+    div.innertext=`new unique vale${idx}`;
+    idx++;
+}
+// divs[0].innertext ="new unique value 1";
+// divs[1].innertext ="new unique value 2";
+// divs[2].innertext ="new unique value 3";
